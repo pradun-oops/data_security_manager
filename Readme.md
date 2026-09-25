@@ -445,11 +445,7 @@ Suggested dashboard documentation:
 
 Inspects tabular and free-form data, applies pattern detection and Luhn validation, and visualizes the resulting sensitivity distribution.
 
-Suggested screenshot:
-
-```text
-docs/screenshots/data_discovery.png
-```
+![Data Discovery Dashboard](docs/screenshots/data_discovery.png)
 
 ---
 
@@ -457,11 +453,7 @@ docs/screenshots/data_discovery.png
 
 Demonstrates logical tenant isolation, role-based access control, field-level masking, and JIT privilege elevation.
 
-Suggested screenshot:
-
-```text
-docs/screenshots/rbac_masking.png
-```
+![Multi-Tenant RBAC](docs/screenshots/rbac_masking.png)
 
 ---
 
@@ -476,12 +468,7 @@ Demonstrates:
 * Key rotation
 * Transport-security analysis
 
-Suggested screenshot:
-
-```text
-docs/screenshots/cryptography_kms.png
-```
-
+![Cryptography & KMS](docs/screenshots/crypto_kms.png)
 ---
 
 ## Tab 4 — Data Loss Prevention
@@ -493,35 +480,21 @@ Tests high-risk egress scenarios and demonstrates both:
 
 operational modes.
 
-Suggested screenshot:
-
-```text
-docs/screenshots/dlp.png
-```
-
+![DLP Simulation Bench](docs/screenshots/dlp_simulation.png)
 ---
 
 ## Tab 5 — AI/ML Anomaly Detection
 
 Simulates user behavioral sessions and evaluates anomalies using the Isolation Forest UEBA model.
 
-Suggested screenshot:
-
-```text
-docs/screenshots/ueba.png
-```
-
+![UEBA Anomaly Detection](docs/screenshots/ueba_anomaly_detection.png)
 ---
 
 ## Tab 6 — SIEM, Incident Response & Governance
 
 Correlates security telemetry from the DLP and UEBA components, triggers configured containment playbooks, and maintains the project's risk register.
 
-Suggested screenshot:
-
-```text
-docs/screenshots/siem_ir.png
-```
+![SIEM & Governance](docs/screenshots/siem_incident_response.png)
 
 ---
 
